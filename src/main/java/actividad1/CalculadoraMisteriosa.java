@@ -1,5 +1,7 @@
 package actividad1;
 
+//Albery Ng
+
 import java.util.Scanner;
 
 public class CalculadoraMisteriosa {
@@ -60,11 +62,11 @@ public class CalculadoraMisteriosa {
         System.out.print("Ingresa el segundo número: ");
         int b = sc.nextInt();
 
-        return a - b;
+        return a + b;
     }
 
     public static int restar(int a, int b) {
-        return a * b;
+        return a - b;
     }
 
     public static int multiplicar() {
@@ -74,7 +76,7 @@ public class CalculadoraMisteriosa {
         System.out.print("Ingresa el segundo número: ");
         int num2 = sc.nextInt();
 
-        return num1 + num2;
+        return num1 * num2;
     }
 
     public static double dividir(double a, double b) {
@@ -97,8 +99,8 @@ public class CalculadoraMisteriosa {
          * System.out.println("\n=== INSTRUCCIONES ===");
          * System.out.println("1. Selecciona una operación del menú");
          * System.out.println("2. Ingresa los números cuando se te solicite");
-         * System.out.println("3. El resultado se mostrará en pantalla"); System.out.
-         * println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
+         * System.out.println("3. El resultado se mostrará en pantalla");
+         * System.out.println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
          */
     }
 
